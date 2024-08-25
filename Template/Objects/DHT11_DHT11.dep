@@ -1,0 +1,188 @@
+Dependencies for Project 'DHT11', Target 'DHT11': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\src\main.c)(0x62DFB0DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\main.o --omf_browse ..\objects\main.crf --depend ..\objects\main.d)
+I (.\inc\main.h)(0x62DF984C)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+I (.\inc\gpio.h)(0x62C6E100)
+I (.\inc\delay.h)(0x62C6E82F)
+I (.\inc\binary.h)(0x5CDD5CF2)
+I (.\inc\debug.h)(0x62C6E53E)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\inc\nvic.h)(0x62C6E801)
+I (.\inc\usart.h)(0x62C6E6A2)
+I (..\Hardware\inc\led.h)(0x62C6E116)
+I (..\Hardware\inc\dht11.h)(0x62DFB079)
+F (.\inc\stm32f10x_conf.h)(0x62DF96CD)()
+F (.\src\nvic.c)(0x629307DD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\nvic.o --omf_browse ..\objects\nvic.crf --depend ..\objects\nvic.d)
+I (.\inc\nvic.h)(0x62C6E801)
+I (.\inc\main.h)(0x62DF984C)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+I (.\inc\gpio.h)(0x62C6E100)
+I (.\inc\delay.h)(0x62C6E82F)
+I (.\inc\binary.h)(0x5CDD5CF2)
+I (.\inc\debug.h)(0x62C6E53E)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (.\src\delay.c)(0x6292CFDA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\delay.o --omf_browse ..\objects\delay.crf --depend ..\objects\delay.d)
+I (.\inc\delay.h)(0x62C6E82F)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+F (.\src\usart.c)(0x62C6E6B9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\usart.o --omf_browse ..\objects\usart.crf --depend ..\objects\usart.d)
+I (.\inc\usart.h)(0x62C6E6A2)
+I (.\inc\main.h)(0x62DF984C)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+I (.\inc\gpio.h)(0x62C6E100)
+I (.\inc\delay.h)(0x62C6E82F)
+I (.\inc\binary.h)(0x5CDD5CF2)
+I (.\inc\debug.h)(0x62C6E53E)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (.\src\gpio.c)(0x62DF9853)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\gpio.o --omf_browse ..\objects\gpio.crf --depend ..\objects\gpio.d)
+I (.\inc\gpio.h)(0x62C6E100)
+I (.\inc\main.h)(0x62DF984C)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+I (.\inc\delay.h)(0x62C6E82F)
+I (.\inc\binary.h)(0x5CDD5CF2)
+I (.\inc\debug.h)(0x62C6E53E)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (.\src\debug.c)(0x62C6E550)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\debug.o --omf_browse ..\objects\debug.crf --depend ..\objects\debug.d)
+I (.\inc\debug.h)(0x62C6E53E)
+I (.\inc\main.h)(0x62DF984C)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+I (.\inc\gpio.h)(0x62C6E100)
+I (.\inc\delay.h)(0x62C6E82F)
+I (.\inc\binary.h)(0x5CDD5CF2)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (..\HARDWARE\src\led.c)(0x62DF96A4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\led.o --omf_browse ..\objects\led.crf --depend ..\objects\led.d)
+I (..\Hardware\inc\led.h)(0x62C6E116)
+I (.\inc\main.h)(0x62DF984C)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+I (.\inc\gpio.h)(0x62C6E100)
+I (.\inc\delay.h)(0x62C6E82F)
+I (.\inc\binary.h)(0x5CDD5CF2)
+I (.\inc\debug.h)(0x62C6E53E)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (..\Hardware\src\dht11.c)(0x62DFB21E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\dht11.o --omf_browse ..\objects\dht11.crf --depend ..\objects\dht11.d)
+I (..\Hardware\inc\dht11.h)(0x62DFB079)
+I (.\inc\main.h)(0x62DF984C)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+I (.\inc\gpio.h)(0x62C6E100)
+I (.\inc\delay.h)(0x62C6E82F)
+I (.\inc\binary.h)(0x5CDD5CF2)
+I (.\inc\debug.h)(0x62C6E53E)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (..\Library\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x61605445)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\stm32f10x_gpio.o --omf_browse ..\objects\stm32f10x_gpio.crf --depend ..\objects\stm32f10x_gpio.d)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+F (..\Library\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x61605445)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\stm32f10x_rcc.o --omf_browse ..\objects\stm32f10x_rcc.crf --depend ..\objects\stm32f10x_rcc.d)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+F (..\Library\StdPeriph_Driver\src\stm32f10x_usart.c)(0x61605445)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\stm32f10x_usart.o --omf_browse ..\objects\stm32f10x_usart.crf --depend ..\objects\stm32f10x_usart.d)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+F (..\Library\StdPeriph_Driver\src\misc.c)(0x61605445)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\misc.o --omf_browse ..\objects\misc.crf --depend ..\objects\misc.d)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+F (..\Library\CMSIS\core_cm3.c)(0x61605444)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\core_cm3.o --omf_browse ..\objects\core_cm3.crf --depend ..\objects\core_cm3.d)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+F (..\Library\CMSIS\system_stm32f10x.c)(0x61605444)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS -I ..\Library\StdPeriph_Driver\inc -I ..\Hardware\inc -I .\inc-I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DEN_USART1_RX -DDELAY_WITH_SYSTICK-o ..\objects\system_stm32f10x.o --omf_browse ..\objects\system_stm32f10x.crf --depend ..\objects\system_stm32f10x.d)
+I (..\Library\CMSIS\stm32f10x.h)(0x61605444)
+I (..\Library\CMSIS\core_cm3.h)(0x61605444)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Library\CMSIS\system_stm32f10x.h)(0x61605444)
+I (.\inc\stm32f10x_conf.h)(0x62DF96CD)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\Library\StdPeriph_Driver\inc\misc.h)(0x61605445)
+F (..\Library\CMSIS\startup\arm\startup_stm32f10x_hd.s)(0x61605445)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_DHT11-I"D:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I"D:\Program Files (x86)\Keil\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 529" --pd "STM32F10X_HD SETA 1"--list ..\listings\startup_stm32f10x_hd.lst --xref -o ..\objects\startup_stm32f10x_hd.o --depend ..\objects\startup_stm32f10x_hd.d)
+F (..\Readme.md)(0x622C2645)()
